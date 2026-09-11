@@ -74,9 +74,8 @@
     <color name="Texto_blanco">#FFFFFF</color>
     <color name="Texto_Negro">#000000</color>
     <color name="Texto_Gris">#888888</color>
-
     <color name="Fondo_negro">#000000</color>
-    <color name="Fondo_blanco">#FFFFFFF</color>
+    <color name="Fondo_blanco">#FFFFFF</color>
 
     <!--============================================================== -->
     <!-- {FIN}= COLORES PARA TEXTO -->

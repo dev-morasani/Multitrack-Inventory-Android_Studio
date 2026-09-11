@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_user_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blanco_para_background"
@@ -23,7 +24,7 @@
             android:minHeight="120dp"
             android:gravity="center"
             tools:ignore="TextSizeCheck"
-            android:background="@drawable/cuadro_Azul_superior_ingreso_user">
+            android:background="@drawable/cuadro_azul_superior_ingreso_user">
             <!--============================================================== -->
             <!-- {INICIO}= título de la interfaz de inicio de sesion -->
             <!--============================================================== -->
