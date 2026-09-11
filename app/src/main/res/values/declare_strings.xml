@@ -1,0 +1,37 @@
+<!--============================================================== -->
+<!-- {INICIO}= total de strings declaradas para el software-->
+<!--============================================================== -->
+<resources>
+    <!--============================================================== -->
+    <!-- {INICIO}= títulos principales de la interfaz de ingreso de usuario -->
+    <!--============================================================== -->
+    <string name="app_name">MULTITRACK INVENTORY</string><!-- titulo principal -->
+    <string name="Logo_Copyright">&#169;</string><!-- simbolo de copyright -->
+    <string name="Pantalla_Ingreso">Pantalla de ingreso</string><!-- NO ELIMINAR-es necesario para personas con discapacidad visual que usan lectores de pantalla como TalkBack -->
+    <!-- Info para la linea de abajo: la "\n" es un salto de linea -->
+    <string name="Titulo_ingreso">INGRESO DE USUARIO</string><!-- título que indica el nombre del apartado -->
+    <!--============================================================== -->
+    <!-- {FIN}= títulos principales de la interfaz de ingreso de usuario -->
+    <!--============================================================== -->
+
+    <!--============================================================== -->
+    <!-- {INICIO}= nombres indicando las diferentes opciones para ingresar sesión -->
+    <!--============================================================== -->
+    <string name="TITULO_INGRESAR_USUARIO">INGRESO DE USUARIO</string>
+    <string name="Ubicación_registro_usuario"> USUARIO</string>
+    <string name="Ingresar_Nombre_usuario_formulario"> Ingresa tu usuario</string>
+    <string name="TITULO_INGRESAR_PASSWORD"> CONTRASEÑA</string>
+    <string name="ingresar_contraseña_formulario"> Digite su contraseña</string>
+    <string name="Recuperar_contraseña"> RECUPERAR CONTRASEÑA</string>
+    <string name="Botón_iniciar_sesión"> INICIAR SESIÓN</string>
+    <!--============================================================== -->
+    <!-- {FIN}= nombres indicando las diferentes opciones para ingresar sesión -->
+    <!--============================================================== -->
+
+
+
+
+</resources>
+    <!--============================================================== -->
+    <!-- {INICIO}= total de strings declaradas para el software -->
+    <!--============================================================== -->

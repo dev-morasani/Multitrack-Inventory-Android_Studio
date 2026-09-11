@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--============================================================== -->
+<!-- {INICIO}= modificación de cuadro superior azul del ingreso de usuario -->
+<!--============================================================== -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--============================================================== -->
+    <!-- {INICIO}= modificación de color y los bordes del rectangulo -->
+    <!--============================================================== -->
+    <solid  android:color="@color/Azul_principal"/>
+    <corners
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"/>
+    <!--============================================================== -->
+    <!-- {FIN}= modificación de color y los bordes del rectangulo -->
+    <!--============================================================== -->
+    <!--============================================================== -->
+    <!-- {INICIO}= espacio de las paredes y el texto interno -->
+    <!--============================================================== -->
+    <padding
+        android:left="24dp"
+        android:top="24dp"
+        android:right="24dp"
+        android:bottom="24dp"/>
+    <!--============================================================== -->
+    <!-- {FIN}= espacio de las paredes y el texto interno-->
+    <!--============================================================== -->
+</shape>
+    <!--============================================================== -->
+    <!-- {FIN}= modificación de cuadro superior azul del ingreso de usuario-->
+    <!--============================================================== -->

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco_para_background"
+    android:contentDescription="@string/Pantalla_Ingreso">
+    <!-- {INICIO}= Hijo único -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--============================================================== -->
+        <!-- {INICIO}= Nietos -->
+        <!--============================================================== -->
+        <!-- TENER EN CUENTA QUE ESTÉ DEBAJO DEL HIJO -->
+        <!--============================================================== -->
+        <!-- {INICIO}= Inicio de sesión: cuadro superior azul y el texto-->
+        <!--============================================================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:gravity="center"
+            tools:ignore="TextSizeCheck"
+            android:background="@drawable/cuadro_Azul_superior_ingreso_user">
+            <!--============================================================== -->
+            <!-- {INICIO}= título de la interfaz de inicio de sesion -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {FIN}= titulo de la interfaz de inicio de sesion -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= Texto de Copyright en el título-->
+            <!--============================================================== -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/Texto_blanco"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:fontFamily="serif"
+                android:text="@string/Logo_Copyright"
+                android:textColor="@color/Texto_blanco"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <!--============================================================== -->
+            <!-- {FIN}= Texto de Copyright en el título-->
+            <!--============================================================== -->
+        </LinearLayout>
+        <!--============================================================== -->
+        <!-- {FIN}= Inicio de sesión: cuadro superior azul y el texto -->
+        <!--============================================================== -->
+        <!--============================================================== -->
+        <!-- {INICIO}= Cuadro con contenido: USUARIO, CONTRASEÑA, RECUPERAR CONTRASEÑA Y INGRESAR -->
+        <!--============================================================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco_para_background"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginBottom="30sp">
+            <!--============================================================== -->
+            <!-- {INICIO}= Titulo Ingreso de Usuario-->
+            <!--============================================================== -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TITULO_INGRESAR_USUARIO"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="45dp"/>
+            <!--============================================================== -->
+            <!-- {FIN}= Titulo Ingreso de Usuario -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= identificador de casilla para ingresar usuario -->
+            <!--============================================================== -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ubicación_registro_usuario"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textStyle="bold|normal"
+                android:textColor="@color/Texto_Negro"
+                android:layout_marginBottom="6dp" />
+            <!--============================================================== -->
+            <!-- {FIN}= identificador de casilla pra ingresar usuario -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= creación de línea debajo de la casilla de ingresar usuario -->
+            <!--============================================================== -->
+            <View
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:background="@drawable/linea_negra_inicio_sesion"
+                android:layout_marginBottom="25sp"
+                android:layout_gravity="center"
+                />
+            <!--============================================================== -->
+            <!-- {FIN}= creación de linea debajo de la casilla de ingresar usuario -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= casilla de ingreso de usuario - input -->
+            <!--============================================================== -->
+            <EditText
+                android:id="@+id/Ingresar_Usuario"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:autofillHints="username"
+                android:background="@color/Gris_secundario"
+                android:gravity="center"
+                android:hint="@string/Ingresar_Nombre_usuario_formulario"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textColor="@color/Texto_blanco"
+                android:textColorHint="@color/Texto_blanco"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck" />
+            <!--============================================================== -->
+            <!--{FIN}= casilla de ingreso de usuario - input -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= titulo de ingreso de contraseña - input int -->
+            <!--============================================================== -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/TITULO_INGRESAR_PASSWORD"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/Texto_Negro"
+                android:layout_marginBottom="6dp"/>
+            <!--============================================================== -->
+            <!-- {FIN}= titulo de ingreso de contraseña - input int-->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= creación de Línea debajo de contraseña -->
+            <!--============================================================== -->
+            <View
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:background="@drawable/linea_negra_inicio_sesion"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25sp"/>
+            <!--============================================================== -->
+            <!-- {FIN}= creacion de Línea debajo de contraseña -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= casilla de ingreso de contraseña - input -->
+            <!--============================================================== -->
+            <EditText
+                android:id="@+id/Ingresar_Contraseña"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:autofillHints="password"
+                android:background="@color/Gris_secundario"
+                android:gravity="center"
+                android:hint="@string/ingresar_contraseña_formulario"
+                android:inputType="textPassword"
+                android:textColorHint="@color/Texto_blanco"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck" />
+            <!--============================================================== -->
+            <!-- {FIN}= casilla de ingreso de contraseña - input -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= recuperar contraseña -->
+            <!--============================================================== -->
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="42dp"
+                android:text="@string/Recuperar_contraseña"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_marginBottom="-10dp"/>
+            <!--============================================================== -->
+            <!-- {FIN}= recuperar contraseña -->
+            <!--============================================================== -->
+            <!--============================================================== -->
+            <!-- {INICIO}= creación de línea para el texto recuperar contraseña -->
+            <!--============================================================== -->
+            <View
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:background="@drawable/linea_negra_inicio_sesion"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="80sp"/>
+            <!--============================================================== -->
+            <!-- {FIN}= creación de línea para el texto recuperar contraseña -->
+            <!--============================================================== -->
+
+                <!--============================================================== -->
+                <!-- {INICIO}= creación de boton de ingresar sesión de usuario -->
+                <!--============================================================== -->
+            <Button
+                android:id="@+id/boton_Iniciar_Sesion"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/Verde_botón"
+                android:gravity="center"
+                android:text="@string/Botón_iniciar_sesión"
+                android:textColor="@color/Texto_blanco"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+            <!--============================================================== -->
+            <!-- {FIN}= creación de boton de ingresar sesión de usuario -->
+            <!--============================================================== -->
+
+        </LinearLayout>
+        <!--============================================================== -->
+        <!-- {FIN}= Cuadro con contenido: USUARIO, CONTRASEÑA, RECUPERAR CONTRASEÑA Y INGRESAR -->
+        <!--============================================================== -->
+
+        <!--============================================================== -->
+        <!-- {FIN}= Nietos -->
+        <!--============================================================== -->
+    </LinearLayout>
+    <!--============================================================== -->
+    <!-- {FIN}= Hijo único -->
+    <!--============================================================== -->
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--============================================================== -->
+<!-- {INICIO}= figura - linea negra de la interfaz de inicio de sesión -->
+<!--============================================================== -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+
+    <!--============================================================== -->
+    <!-- {INICIO}= datos de linea negra - especifico para lineas -->
+    <!--============================================================== -->
+<stroke
+    android:width="2dp"
+    android:color="@color/negro_linea_ingreso_usuario"/>
+
+
+    <!--============================================================== -->
+    <!-- {FIN}= datos de linea negra - especifico para lineas -->
+    <!--============================================================== -->
+
+</shape>
+    <!--============================================================== -->
+    <!-- {FIN}= figura - linea negra de la interfaz de inicio de sesión -->
+    <!--============================================================== -->
